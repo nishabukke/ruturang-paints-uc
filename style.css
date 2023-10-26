@@ -618,6 +618,13 @@ form#contact-us-form {
   color: #fff;
 }
 
+.contact-links-1{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  color: #fff;
+}
+
 .links{
   display: flex;
   flex-direction: column;
