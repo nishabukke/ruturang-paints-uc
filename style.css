@@ -443,6 +443,12 @@ ul.nav li .dropdown a:hover{
   flex-direction: column;
 }
 
+ 
+.swiper-button-next,.swiper-button-prev{
+  top: 50px;
+  bottom: auto;
+}
+
 .swiper-button-next:after, .swiper-button-prev:after {
   padding: 15px;
   border-radius: 50%;
@@ -776,6 +782,12 @@ form#contact-us-form {
     padding: 30px 55px 45px 45px;
   }
 
+  
+  .swiper-button-next,.swiper-button-prev{
+    bottom: 10px;
+    top: auto;
+  }
+
   .about-inner img{
     width: 100%;
   }
@@ -887,8 +899,13 @@ form#contact-us-form {
     font-size: 14px;
   }
 
-  .swiper-button-next:after, .swiper-button-prev:after{
-    display: none;
+  .swiper-button-next,.swiper-button-prev{
+    bottom: 10px;
+    top: auto;
+  }
+
+  .swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 20px;
   }
 
   .about-inner img{
