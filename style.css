@@ -8,6 +8,17 @@ body{
     color: #555151;
 }
 
+html::-webkit-scrollbar {
+  width: 15px
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #EC2220;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 #preloader{
   background:  url(images/loader.gif) no-repeat center center;
   background-size: 50%;
@@ -568,7 +579,7 @@ ul.nav li .dropdown a:hover{
   margin-top: -2px;
   margin-bottom: 0px;
   padding: 0px 0px 0px 0px;
-  background-image: url('images/contact-section-bg.jpg');
+  background-image: url('images/contact-section-bg1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -578,9 +589,9 @@ ul.nav li .dropdown a:hover{
 
 
 .contact-form-container{
-  padding: 50px 25px 50px 25px;
+  padding: 30px 25px 30px 25px;
   display: flex;  
-  background-color: #FEE026;
+  background-color: #fff;
   flex-direction: column;
   border-radius: 10px;
 }
@@ -596,7 +607,8 @@ form#contact-us-form {
 .contact1 input{
   border-radius: 5px;
   padding: 23px 35px;
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
+  background-color: #eee;
 }
 
 .contact1 input:focus, .contact1 input:focus-visible{
