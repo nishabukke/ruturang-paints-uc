@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300&family=Tilt+Neon&display=swap');
+
 body{
   margin: 0px auto;
   max-width: 1600px;
   padding: 0;
   color: #555151;
+}
+
+html::-webkit-scrollbar {
+  width: 15px
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #EC2220;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 #under-construction{
@@ -31,7 +43,7 @@ color: #555151;
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
 }
 
